@@ -1,0 +1,26 @@
+[Symbols]
+nth      paddr       vaddr bind type size lib                               name                                                            
+--------------------------------------------------------------------------------------------------------------------------------------------
+  1 0x00000400 0x1406f2000 NONE FUNC    0 KERNEL32.dll                      imp.IsWow64Process
+  1 0x00000410 0x1406f2010 NONE FUNC    0 USER32.dll                        imp.FindWindowA
+  1 0x00000420 0x1406f2020 NONE FUNC    0 ADVAPI32.dll                      imp.OpenProcessToken
+  1 0x00000430 0x1406f2030 NONE FUNC    0 MSVCP140.dll                      imp.public: bool __cdecl std::ios_base::good(void)const __ptr64
+  1 0x00000440 0x1406f2040 NONE FUNC    0 ntdll.dll                         imp.RtlVirtualUnwind
+  1 0x00000450 0x1406f2050 NONE FUNC    0 VCRUNTIME140_1.dll                imp.__CxxFrameHandler4
+  1 0x00000460 0x1406f2060 NONE FUNC    0 VCRUNTIME140.dll                  imp.memcpy
+  1 0x00000470 0x1406f2070 NONE FUNC    0 api-ms-win-crt-heap-l1-1-0.dll    imp.free
+  1 0x00000480 0x1406f2080 NONE FUNC    0 api-ms-win-crt-runtime-l1-1-0.dll imp._set_app_type
+  1 0x00000490 0x1406f2090 NONE FUNC    0 api-ms-win-crt-stdio-l1-1-0.dll   imp.__p__commode
+  1 0x000004a0 0x1406f20a0 NONE FUNC    0 api-ms-win-crt-time-l1-1-0.dll    imp._localtime64_s
+  1 0x000004b0 0x1406f20b0 NONE FUNC    0 api-ms-win-crt-convert-l1-1-0.dll imp.strtoul
+  1 0x000004c0 0x1406f20c0 NONE FUNC    0 api-ms-win-crt-string-l1-1-0.dll  imp._stricmp
+  1 0x000004d0 0x1406f20d0 NONE FUNC    0 api-ms-win-crt-locale-l1-1-0.dll  imp._configthreadlocale
+  1 0x000004e0 0x1406f20e0 NONE FUNC    0 api-ms-win-crt-math-l1-1-0.dll    imp.__setusermatherr
+  1 0x000004f0 0x1406f20f0 NONE FUNC    0 KERNEL32.dll                      imp.GetSystemTimeAsFileTime
+  1 0x00000500 0x1406f2100 NONE FUNC    0 KERNEL32.dll                      imp.HeapAlloc
+  2 0x00000508 0x1406f2108 NONE FUNC    0 KERNEL32.dll                      imp.HeapFree
+  3 0x00000510 0x1406f2110 NONE FUNC    0 KERNEL32.dll                      imp.ExitProcess
+  4 0x00000518 0x1406f2118 NONE FUNC    0 KERNEL32.dll                      imp.LoadLibraryA
+  5 0x00000520 0x1406f2120 NONE FUNC    0 KERNEL32.dll                      imp.GetModuleHandleA
+  6 0x00000528 0x1406f2128 NONE FUNC    0 KERNEL32.dll                      imp.GetProcAddress
+

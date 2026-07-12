@@ -1,0 +1,12 @@
+[Sections]
+     paddr     size       vaddr    vsize align perm name         type flags                                       
+------------------------------------------------------------------------------------------------------------------
+0x00000000      0x0 0x140001000  0x2a000   0x0 -r-x .text             CNT_CODE
+0x00000000      0x0 0x14002b000   0x7000   0x0 -r-- .rdata            CNT_INITIALIZED_DATA
+0x00000000      0x0 0x140032000   0x1000   0x0 -rw- .data             CNT_INITIALIZED_DATA
+0x00000000      0x0 0x140033000   0x1000   0x0 -r-- .pdata            CNT_INITIALIZED_DATA
+0x00000000      0x0 0x140034000 0x6be000   0x0 -r-x .text2            CNT_CODE
+0x00000400    0xe00 0x1406f2000   0x1000   0x0 -rw- .text3            CNT_INITIALIZED_DATA
+0x00001200 0xb78200 0x1406f3000 0xb79000   0x0 -r-x .text_0x1200      CNT_CODE,CNT_INITIALIZED_DATA,MEM_NOT_PAGED
+0x00b79400    0x200 0x14126c000   0x1000   0x0 -r-- .rsrc             CNT_INITIALIZED_DATA
+

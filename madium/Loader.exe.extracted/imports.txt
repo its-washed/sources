@@ -1,0 +1,26 @@
+[Imports]
+nth       vaddr bind type lib                               name                                                        
+------------------------------------------------------------------------------------------------------------------------
+  1 0x1406f2000 NONE FUNC KERNEL32.dll                      IsWow64Process
+  1 0x1406f2010 NONE FUNC USER32.dll                        FindWindowA
+  1 0x1406f2020 NONE FUNC ADVAPI32.dll                      OpenProcessToken
+  1 0x1406f2030 NONE FUNC MSVCP140.dll                      public: bool __cdecl std::ios_base::good(void)const __ptr64
+  1 0x1406f2040 NONE FUNC ntdll.dll                         RtlVirtualUnwind
+  1 0x1406f2050 NONE FUNC VCRUNTIME140_1.dll                __CxxFrameHandler4
+  1 0x1406f2060 NONE FUNC VCRUNTIME140.dll                  memcpy
+  1 0x1406f2070 NONE FUNC api-ms-win-crt-heap-l1-1-0.dll    free
+  1 0x1406f2080 NONE FUNC api-ms-win-crt-runtime-l1-1-0.dll _set_app_type
+  1 0x1406f2090 NONE FUNC api-ms-win-crt-stdio-l1-1-0.dll   __p__commode
+  1 0x1406f20a0 NONE FUNC api-ms-win-crt-time-l1-1-0.dll    _localtime64_s
+  1 0x1406f20b0 NONE FUNC api-ms-win-crt-convert-l1-1-0.dll strtoul
+  1 0x1406f20c0 NONE FUNC api-ms-win-crt-string-l1-1-0.dll  _stricmp
+  1 0x1406f20d0 NONE FUNC api-ms-win-crt-locale-l1-1-0.dll  _configthreadlocale
+  1 0x1406f20e0 NONE FUNC api-ms-win-crt-math-l1-1-0.dll    __setusermatherr
+  1 0x1406f20f0 NONE FUNC KERNEL32.dll                      GetSystemTimeAsFileTime
+  1 0x1406f2100 NONE FUNC KERNEL32.dll                      HeapAlloc
+  2 0x1406f2108 NONE FUNC KERNEL32.dll                      HeapFree
+  3 0x1406f2110 NONE FUNC KERNEL32.dll                      ExitProcess
+  4 0x1406f2118 NONE FUNC KERNEL32.dll                      LoadLibraryA
+  5 0x1406f2120 NONE FUNC KERNEL32.dll                      GetModuleHandleA
+  6 0x1406f2128 NONE FUNC KERNEL32.dll                      GetProcAddress
+

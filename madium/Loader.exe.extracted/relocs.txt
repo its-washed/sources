@@ -1,0 +1,3 @@
+[36mUsage: [0mrz-bin [-AcdeEghHiIjlLMqrRsSUvVxzZ] [-@ at] [-a arch] [-b bits] [-B addr]
+              [-C F:C:D] [-f str] [-m addr] [-n str] [-N m:M] [-P pdb]
+              [-o str] [-O str] [-k query] [-D lang symname] file
